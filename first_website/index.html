@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anthony</title>
+    <link
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    *{
+      box-sizing: border-box;
+    }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #ffffff;
+  color: black;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #000000;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #000;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: #ffffff;
+  color: black;
+  
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ffffff;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>ANTHONY</h1>
+  <p>Computer Science | anthonyachw@gmail.com | +86 18518546046</p>
+</div>
+
+<div class="navbar">
+  <a href="https://www.instagram.com/itsanthony19_/"> <img width=50 heigh=40 src="/image/instalgram.jpeg" alt ="Instalgram"></a>
+  <a href="https://github.com/anthonyhuang1909"><img width=40 heigh=40 src="/image/github.png" alt ="Github"></a>
+  <a href="https://www.linkedin.com/in/anthony-huang-7265841b2/"><img width=40 heigh=40 src="/image/linkedin.png" alt ="linkedin"></a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2 style="color :white ">Profile</h2>
+    <img width=240 heigh = 400 src="/image/anthony.jpg" alt="me">
+    <p style="color :white ">I am a Computer Science Student passionate about <t><b>backend development</b></t> and <t><b>Software</b></t> as well as <t><b>big data </b></t>and <t><b>machine learning</b></t> with a keen interest in the latest technologies. In my pursuit of becoming a better Software Engineer, I aspire to write clean and readable code, at the same time deliver an elegant and simplistic design to provide a perfect user experience.
+    </p>
+    
+    
+  </div>
+  <div class="main">
+    <h2>Education</h2>
+    <p style =" font-size:1.2em">Nanjing University - Nanjing</p>
+    <p style="color :#aaa;font-size:0.001em ">Bachelor of Computer Science(2020-2024)</p>
+    <p style="font-size:0.8em">Academic Award :Received Nanjing Municipal Government Scholarship</p>
+    <p style="font-size:0.8em">Achievement:Career and entrepreneurial competence(Nanjing University), Big Data Analytics for E-Commerce (Tsinghua University),JPMorgan CHASE & Co. Software Engineering </p>
+    <p style="font-size:0.8em">Related courses :Fundamentals of Computer Programs,Fundamentals of Computer Programs Experiment,Data Structure,Mathematic Discrete ,Introduction of Computer System,Digital Logic and Computer Organization,Operating System,Digital Design and Computer Organization Experiment,Algorithm Design and Analysis,Computer Network and Physic Experiment</p>
+    <br>
+    <p style =" font-size:1.2em">Peking University - Beijing</p>
+    <p1 style="color :#aaa;font-size:0.001em ">Bachelor of Computer Science(2019)</p1>
+    <p style="font-size:0.8em">Activities and societies: Badminton Club, Basketball Club,Culture Club and Indonesia Association.</p>
+    <br>
+    <h2>Experience</h2>
+    <p style =" font-size:1.2em">MATRIX MAS | Surabaya, Indonesia</p>
+    <p style="color :#aaa;font-size:0.001em ">Software Engineer Internship (May 2019 - August 2019)</p>
+    <p style="font-size:0.8em">Using Google Analytics,Search Technology stack: C++</p>
+    <br>
+    <h2>Organization</h2>
+    <p style="font-size:0.8em">-NJU Badminton -Sep 2021 - Jun 2022</p>
+    <p style="font-size:0.8em">-NJU INDONESIAN ASSOCIATION - Nanjing September 2020 - Nanjing University student from Indonesia</p>
+    <p style="font-size:0.8em">-Basketball Club (2019)</p>
+    <p style="font-size:0.8em">-Cultural Club and Indonesian Association (2019)</p>
+    <br/>
+    <h2>Skills, Achievements and Other Experiences</h2>
+    <p style="font-size:0.8em">-Skills. : C++, Programming, Algorithms, Python, Networking, Management, Team Leaders</p>
+    <p style="font-size:0.8em">-Achievement: 1st place in Petra International Business Accounting Competition (2018)</p>
+    <p style="font-size:0.8em">-Volunteers: Help deliver and aid Indonesia's residents affected by floods and earthquakes</p>
+    </div>
+</div>
+
+<div class="footer">
+  <h2>Write by Anthony</h2>
+</div>
+</body>
+</html>
+
