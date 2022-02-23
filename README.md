@@ -1,2 +1,3 @@
 # first_webiste
-first website that i make it using HTML language
+In my first HTML project this time, I created a webiste about biodata and my experience on this webiste.
+This website itself consists of HTML files and image files as well as style.css files
